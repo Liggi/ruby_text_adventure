@@ -12,8 +12,4 @@ def processInput(input, player)
 		player.currentRoom = player.currentRoom.directions["south"]
 		puts player.currentRoom.description
 	end
-
-	if(input == "poop")
-		puts "What the hell is wrong with you? No pooping! No!"
-	end
 end

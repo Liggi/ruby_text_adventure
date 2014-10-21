@@ -10,7 +10,7 @@ class Main
   end
 
   def create_initial_rooms()
-    @@firstRoom = Room.new("You are in a room, about 10ft by 10ft. The walls are painted white. There are no markings, no windows, no doors. There's a little cubbyhole to the north.")
+    @@firstRoom = Room.new("You are in adjfkhgjkdhgkdjh room, about 10ft by 10ft. The walls are painted white. There are no markings, no windows, no doors. There's a little cubbyhole to the north.")
     @@anotherRoom = Room.new("You found a little tiny cubbyhole. You're in it.")
 
     @@firstRoom.add_room_to_direction(@@anotherRoom, "north")
